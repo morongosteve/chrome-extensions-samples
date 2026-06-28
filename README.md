@@ -17,7 +17,15 @@ You can also use the [Samples](https://developer.chrome.com/docs/extensions/samp
 
 ## Installation
 
-To experiment with these samples, please clone this repo and use 'Load Unpacked Extension'.
+To experiment with these samples, clone this repo and load a sample as an unpacked extension:
+
+1. Clone the repository: `git clone https://github.com/GoogleChrome/chrome-extensions-samples.git`
+2. Open `chrome://extensions` in Chrome.
+3. Enable **Developer mode** using the toggle in the top-right corner.
+4. Click **Load unpacked** and select the directory of the sample you want to try (the folder containing its `manifest.json`).
+
+Some samples require a build step or dependency installation first — check the sample's own `README.md` for any extra instructions.
+
 Read more on [Development Basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
 
 ## Contributing
